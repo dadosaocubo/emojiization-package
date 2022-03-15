@@ -10,7 +10,7 @@ def emoji_transform(text):
       text_new.append(t)
   return ' '.join(map(str, text_new))
 
-  def emoji_replace(text, new_text):
+def emoji_replace(text, new_text):
   text_new = []
   for t in text.split():
     if emoji.is_emoji(t):

@@ -16,17 +16,17 @@ pip install emojiization
 ## Usage
 
 ```python
-from emojiization.functions import transform
+from emojiization.functions.transform import emoji_transform, emoji_replace
 
-transform.emoji_transform(text)
+emoji_transform(text)
 
-transform.emoji_replace(text, new_text)
+emoji_replace(text, new_text)
 ```
 
 ```python
-from emojiization.functions import metrics
+from emojiization.functions.metrics import emoji_count
 
-metrics.emoji_count(text)
+emoji_count(text)
 ```
 ## Author
 Dados ao Cubo

@@ -1,9 +1,9 @@
 # Emojiization
 
 O pacote emojiization foi desenvolvido pelo time do [Dados ao Cubo](https://www.dadosaocubo.com/) para tratamento de textos com Emojis:
-	- Transformação de emojis em textos;
-	- Substituição de emojis por outro texto específico;
-	- Contagem de emojis presentes em texts.
+	* Transformação de emojis em textos;
+	* Substituição de emojis por outro texto específico;
+	* Contagem de emojis presentes em texts.
 
 ## Installation
 

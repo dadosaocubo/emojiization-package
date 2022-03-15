@@ -1,27 +1,35 @@
-# package_name
+# Emojiization
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+O pacote emojiization foi desenvolvido pelo time do [Dados ao Cubo](https://www.dadosaocubo.com/) para tratamento de textos com Emojis:
+	- Transformação de emojis em textos;
+	- Substituição de emojis por outro texto específico;
+	- Contagem de emojis presentes em texts.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install emojiization
 
 ```bash
-pip install package_name
+pip install emojiization
 ```
 
 ## Usage
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from emojiization.functions import transform
+
+transform.emoji_transform(text)
+
+transform.emoji_replace(text, new_text)
 ```
 
+```python
+from emojiization.functions import metrics
+
+metrics.emoji_count(text)
+```
 ## Author
-My_name
+Dados ao Cubo
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="emojiization",
-    version="0.0.1",
+    version="0.0.2",
     author="Dados ao Cubo",
     author_email="tiago@dadosaocubo.com",
     description="O pacote emojiization foi desenvolvido pelo time do dadosaocubo.com para tratamento de textos com Emojis",
